@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Password Generator Library with TypeScript
 
 ## 📋 مقدمه
@@ -14,13 +13,13 @@
 ## 🤔 استفاده 
 برای استفاده از این کتابخانه، ابتدا آن را وارد کنید و سپس تابع PasswordGenerator را فراخوانی کنید. به فرض مثال برای تولید یک رمز تصادفی با طول 20 کاراکتر و حروف بزرگ، حروف کوچک، اعداد و نمادها به صورت زیر عمل میکنیم:
 
-```type Script
+```typeScript
 import PasswordGenerator from './setPassword.ts';
 
 const newpassword = PasswordGenerator({
+  passwordlength: 10,
   lowercase: true,
   uppercase: true,
-  passwordlength: 10,
   numeral: true,
   symbols: true
 });
@@ -34,9 +33,13 @@ const newpassword = PasswordGenerator({
 ## ⚙ امکانات
 
 - passwordlength: طول پسورد مورد نظر (number)
+
 - uppercase: آیا از حروف بزرگ استفاده شود (Boolean)
+
 - lowercase: آیا از اعداد استفاده شود (Boolean)
+
 - numeral: آیا از اعداد استفاده شود (Boolean)
+
 - symbols: آیا از نمادها استفاده شود (Boolean)
 
 
