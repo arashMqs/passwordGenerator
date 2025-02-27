@@ -1,7 +1,7 @@
 export interface setPasswordInputs {
   passwordlength: number;
-  uppercase: boolean;
-  lowercase: boolean;
+  uppercase: true;
+  lowercase: true;
   numeral?: boolean;
   symbols?: boolean;
 }
